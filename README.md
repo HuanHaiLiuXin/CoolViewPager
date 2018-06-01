@@ -1,5 +1,5 @@
-<p align="center">
-    <img src="https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/ScreenRecorder/CoolViewPager.png"/>
+<p align="left">
+    <img width="800px" height="120px" src="https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/ScreenRecorder/1527876954982391.png"/>
 </p>
 
 # Coolviewpager

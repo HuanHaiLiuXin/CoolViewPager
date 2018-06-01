@@ -14,6 +14,7 @@ import android.os.SystemClock;
 import android.support.annotation.CallSuper;
 import android.support.annotation.ColorInt;
 import android.support.annotation.DrawableRes;
+import android.support.annotation.Keep;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.content.ContextCompat;
@@ -73,6 +74,7 @@ import java.util.List;
  * <p>
  * 一屏展示多页:{@link PagerAdapter#getPageWidth(int)}
  */
+@Keep
 public class CoolViewPager extends ViewGroup implements ICoolViewPagerFeature {
     private static final String TAG = "ViewPager";
     private static final boolean DEBUG = false;

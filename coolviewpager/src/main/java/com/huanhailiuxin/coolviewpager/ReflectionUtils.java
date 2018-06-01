@@ -1,5 +1,7 @@
 package com.huanhailiuxin.coolviewpager;
 
+import android.support.annotation.Keep;
+
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
@@ -11,6 +13,7 @@ import java.lang.reflect.Method;
  * 邮箱:wall0920@163.com
  * 2015/12/18
  */
+@Keep
 public final class ReflectionUtils {
     private ReflectionUtils() {
         throw new RuntimeException("工具类禁止实例化");

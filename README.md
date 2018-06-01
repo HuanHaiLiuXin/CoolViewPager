@@ -1,7 +1,9 @@
+<p align="center">
+    <img src="https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/ScreenRecorder/CoolViewPager.png"/>
+</p>
+
 # Coolviewpager
 A Cool ViewPager
-
-<img align="center" src="https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/ScreenRecorder/CoolViewPager.png"/>
 
 <table align="center">
     <tr>

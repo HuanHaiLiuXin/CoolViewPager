@@ -1,6 +1,8 @@
 # Coolviewpager
 A Cool ViewPager
 
+<img align="center" src="https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/ScreenRecorder/CoolViewPager.png"/>
+
 <table align="center">
     <tr>
         <td><img src="https://github.com/HuanHaiLiuXin/Coolviewpager/blob/master/ScreenRecorder/notifyDatasetChanged%E7%94%9F%E6%95%88.gif"/></td>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+自定义属性,属性名称后缀参考UltraViewPager(https://github.com/alibaba/UltraViewPager)
+-->
+<resources>
+    <declare-styleable name="CoolViewPager">
+        <attr name="cvp_scrollmode" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="cvp_autoscroll" format="boolean" />
+        <attr name="cvp_intervalinmillis" format="integer"/>
+        <attr name="cvp_autoscrolldirection" format="enum">
+            <enum name="forward" value="0" />
+            <enum name="backward" value="1" />
+        </attr>
+        <attr name="cvp_infiniteloop" format="boolean" />
+        <attr name="cvp_scrollduration" format="integer"/>
+        <attr name="cvp_drawedgeeffect" format="boolean"/>
+        <attr name="cvp_edgeeffectcolor" format="color"/>
+    </declare-styleable>
+</resources>

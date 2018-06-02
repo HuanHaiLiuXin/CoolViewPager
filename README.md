@@ -3,7 +3,9 @@
 </p>
 
 # Coolviewpager
-[![](https:\//img.shields.io\/badge\/%E4%BD%9C%E8%80%85-%E5%B9%BB%E6%B5%B7%E6%B5%81%E5%BF%83-2E8CE6.svg)](https://github.com/HuanHaiLiuXin)
+[![Author](https://img.shields.io/badge/%E4%BD%9C%E8%80%85-%E5%B9%BB%E6%B5%B7%E6%B5%81%E5%BF%83-2E8CE6.svg)](https://github.com/HuanHaiLiuXin)
+[![License](https://img.shields.io/badge/License-Apache%202-3D7DB4.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+[![platform](https://img.shields.io/badge/platform-Android-4DC71F.svg)](https://www.android.com)
 [![API](https://img.shields.io/badge/API-15%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=15)<br>
 A Cool ViewPager
 

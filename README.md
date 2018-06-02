@@ -3,6 +3,8 @@
 </p>
 
 # Coolviewpager
+[![](https:\//img.shields.io\/badge\/%E4%BD%9C%E8%80%85-%E5%B9%BB%E6%B5%B7%E6%B5%81%E5%BF%83-2E8CE6.svg)](https://github.com/HuanHaiLiuXin)
+[![API](https://img.shields.io/badge/API-15%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=15)<br>
 A Cool ViewPager
 
 <table align="center">

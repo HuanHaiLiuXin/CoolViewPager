@@ -63,9 +63,6 @@ dependencies {
     android:id="@+id/vp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:cvp_scrollmode="horizontal"
-    app:cvp_infiniteloop="false"
-    app:cvp_edgeeffectcolor="@color/colorAccent"
     />
 ```
 在Java代码中获取CoolViewPager,设置各种属性,为其设置Adapter
@@ -81,7 +78,7 @@ public class ActivityEdgeEffectColor extends BaseActivity {
 }
 ```
 
-## Attributes
+## [Attributes](https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/coolviewpager/src/main/res/values/attrs_coolviewpager.xml)
 我们可以通过xml或Java代码的方式设置CoolViewPager实例的属性.
 
 | attribute name | description |
@@ -94,6 +91,41 @@ public class ActivityEdgeEffectColor extends BaseActivity {
 | cvp_scrollduration | 自动滚动耗时 |
 | cvp_drawedgeeffect | 是否绘制边缘效果 |
 | cvp_edgeeffectcolor | 绘制的边缘效果颜色 |
+
+### Via XML
+```
+<com.huanhailiuxin.coolviewpager.CoolViewPager
+    android:id="@+id/vp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cvp_scrollmode="vertical"
+    app:cvp_autoscroll="true"
+    app:cvp_intervalinmillis="1000"
+    app:cvp_autoscrolldirection="backward"
+    app:cvp_infiniteloop="true"
+    app:cvp_scrollduration="600"
+    app:cvp_drawedgeeffect="true"
+    app:cvp_edgeeffectcolor="@color/colorPrimary"
+    />
+```
+### Via Java code
+```java
+public class ActivityEdgeEffectColor extends BaseActivity {
+    private CoolViewPager vp;
+    
+    private void initViewPager(){
+        vp = findViewById(R.id.vp);
+        vp.setScrollMode(CoolViewPager.ScrollMode.VERTICAL);
+        vp.setAutoScroll(true,1000);
+        vp.setAutoScrollDirection(CoolViewPager.AutoScrollDirection.BACKWARD);
+        vp.setInfiniteLoop(true);
+        vp.setScrollDuration(true,600);
+        vp.setDrawEdgeEffect(true);
+        vp.setEdgeEffectColor(getResources().getColor(R.color.colorPrimary));
+    }
+}
+
+```
 
 License
 =======

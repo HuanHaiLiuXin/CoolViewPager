@@ -47,6 +47,91 @@
     </tr>
 </table>
 
+## Apk
+[**demo.apk**](https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/demo.apk)
+
+## Usage
+在你的build.gradle中添加依赖
+```
+dependencies {
+    implementation 'com.huanhailiuxin.view:coolviewpager:1.0.1'
+}
+```
+在你的布局文件中引入CoolViewPager
+```
+<com.huanhailiuxin.coolviewpager.CoolViewPager
+    android:id="@+id/vp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    />
+```
+在Java代码中获取CoolViewPager,设置各种属性,为其设置Adapter
+```java
+public class ActivityEdgeEffectColor extends BaseActivity {
+    private CoolViewPager vp;
+    
+    ****
+    CoolViewPager vp = findViewById(R.id.vp);
+    vp.setScrollMode(CoolViewPager.ScrollMode.HORIZONTAL);
+    vp.setAdapter(adapter);
+    ****
+}
+```
+
+## [Attributes](https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/coolviewpager/src/main/res/values/attrs_coolviewpager.xml)
+我们可以通过xml或Java代码的方式设置CoolViewPager实例的属性.
+
+| attribute name | description |
+|:---|:---|
+| cvp_scrollmode | 滚动方向 |
+| cvp_autoscroll | 是否开启自动滚动 |
+| cvp_intervalinmillis | 自动滚动时间间隔 |
+| cvp_autoscrolldirection | 自动滚动方向 |
+| cvp_infiniteloop | 是否循环滚动 |
+| cvp_scrollduration | 自动滚动耗时 |
+| cvp_drawedgeeffect | 是否绘制边缘效果 |
+| cvp_edgeeffectcolor | 绘制的边缘效果颜色 |
+
+#### Via XML
+```
+<com.huanhailiuxin.coolviewpager.CoolViewPager
+    android:id="@+id/vp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cvp_scrollmode="vertical"
+    app:cvp_autoscroll="true"
+    app:cvp_intervalinmillis="1000"
+    app:cvp_autoscrolldirection="backward"
+    app:cvp_infiniteloop="true"
+    app:cvp_scrollduration="600"
+    app:cvp_drawedgeeffect="true"
+    app:cvp_edgeeffectcolor="@color/colorPrimary"
+    />
+```
+#### Via Java code
+```java
+public class ActivityEdgeEffectColor extends BaseActivity {
+    private CoolViewPager vp;
+    
+    private void initViewPager(){
+        vp = findViewById(R.id.vp);
+        vp.setScrollMode(CoolViewPager.ScrollMode.VERTICAL);
+        vp.setAutoScroll(true,1000);
+        vp.setAutoScrollDirection(CoolViewPager.AutoScrollDirection.BACKWARD);
+        vp.setInfiniteLoop(true);
+        vp.setScrollDuration(true,600);
+        vp.setDrawEdgeEffect(true);
+        vp.setEdgeEffectColor(getResources().getColor(R.color.colorPrimary));
+    }
+}
+
+```
+
+## Author
+<a target="_blank" href="https://github.com/HuanHaiLiuXin"><img src="https://img.shields.io/badge/%E4%BD%9C%E8%80%85-%E5%B9%BB%E6%B5%B7%E6%B5%81%E5%BF%83-2E8CE6.svg"></a>
+<a target="_blank" href="https://juejin.im/user/58206bf20ce46300589709d0"><img src="https://img.shields.io/badge/%E6%8E%98%E9%87%91-%E5%B9%BB%E6%B5%B7%E6%B5%81%E5%BF%83-006CFF.svg"></a>
+<a target="_blank" href="https://www.jianshu.com/u/5702e6847f31"><img src="https://img.shields.io/badge/%E7%AE%80%E4%B9%A6-%E5%B9%BB%E6%B5%B7%E6%B5%81%E5%BF%83-EE705B.svg"></a>
+
 License
 =======
 

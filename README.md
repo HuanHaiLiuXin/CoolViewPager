@@ -19,6 +19,7 @@
 5. 支持边缘效果颜色的设置
 6. 为垂直滚动提供了适宜的界面切换效果
 
+## Screen Record
 <table align="center">
     <tr>
         <td>支持水平及垂直方向循环滚动</td>

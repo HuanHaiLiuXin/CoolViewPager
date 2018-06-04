@@ -127,6 +127,11 @@ public class ActivityEdgeEffectColor extends BaseActivity {
 
 ```
 
+## Author
+<a target="_blank" href="https://github.com/HuanHaiLiuXin"><img src="https://img.shields.io/badge/%E4%BD%9C%E8%80%85-%E5%B9%BB%E6%B5%B7%E6%B5%81%E5%BF%83-2E8CE6.svg"></a>
+<a target="_blank" href="https://juejin.im/user/58206bf20ce46300589709d0"><img src="https://img.shields.io/badge/%E6%8E%98%E9%87%91-%E5%B9%BB%E6%B5%B7%E6%B5%81%E5%BF%83-006CFF.svg"></a>
+<a target="_blank" href="https://www.jianshu.com/u/5702e6847f31"><img src="https://img.shields.io/badge/%E7%AE%80%E4%B9%A6-%E5%B9%BB%E6%B5%B7%E6%B5%81%E5%BF%83-EE705B.svg"></a>
+
 License
 =======
 

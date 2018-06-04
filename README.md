@@ -54,7 +54,7 @@
 在你的build.gradle中添加依赖
 ```
 dependencies {
-    implementation 'com.huanhailiuxin.view:coolviewpager:1.0.1'
+    implementation 'com.huanhailiuxin.view:coolviewpager:1.0.0'
 }
 ```
 在你的布局文件中引入CoolViewPager

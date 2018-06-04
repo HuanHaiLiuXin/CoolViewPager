@@ -10,6 +10,15 @@
 
 ## [README of English](https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/README-EN.md)<br/>
 
+## About
+[**CoolViewPager**](https://github.com/HuanHaiLiuXin/CoolViewPager)是一个自定义ViewPager,具有以下功能特征:
+1. 水平及垂直方向循环滚动
+2. 支持自动滚动
+3. 支持自动滚动方向、滚动时间、间隔时间的设置
+4. 支持调用notifyDataSetChanged实时刷新界面
+5. 支持边缘效果颜色的设置
+6. 为垂直滚动提供了适宜的界面切换效果
+
 <table align="center">
     <tr>
         <td><img src="https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/ScreenRecorder/notifyDatasetChanged%E7%94%9F%E6%95%88-%E5%B0%8F.gif"/></td>

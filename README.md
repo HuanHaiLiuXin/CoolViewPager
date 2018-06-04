@@ -81,6 +81,20 @@ public class ActivityEdgeEffectColor extends BaseActivity {
 }
 ```
 
+## Attributes
+我们可以通过xml或Java代码的方式设置CoolViewPager实例的属性.
+
+| attribute name | description |
+|:---|:---|
+| cvp_scrollmode | 滚动方向 |
+| cvp_autoscroll | 是否开启自动滚动 |
+| cvp_intervalinmillis | 自动滚动时间间隔 |
+| cvp_autoscrolldirection | 自动滚动方向 |
+| cvp_infiniteloop | 是否循环滚动 |
+| cvp_scrollduration | 自动滚动耗时 |
+| cvp_drawedgeeffect | 是否绘制边缘效果 |
+| cvp_edgeeffectcolor | 绘制的边缘效果颜色 |
+
 License
 =======
 

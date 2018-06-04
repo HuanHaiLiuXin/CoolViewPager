@@ -92,7 +92,7 @@ public class ActivityEdgeEffectColor extends BaseActivity {
 | cvp_drawedgeeffect | 是否绘制边缘效果 |
 | cvp_edgeeffectcolor | 绘制的边缘效果颜色 |
 
-### Via XML
+#### Via XML
 ```
 <com.huanhailiuxin.coolviewpager.CoolViewPager
     android:id="@+id/vp"
@@ -108,7 +108,7 @@ public class ActivityEdgeEffectColor extends BaseActivity {
     app:cvp_edgeeffectcolor="@color/colorPrimary"
     />
 ```
-### Via Java code
+#### Via Java code
 ```java
 public class ActivityEdgeEffectColor extends BaseActivity {
     private CoolViewPager vp;

@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/ScreenRecorder/Logo_CoolViewPager1.png"/>
+    <img src="https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/ScreenRecorder/Logo_CoolViewPager.png"/>
 </p>
 <p align="center">
 <a target="_blank" href="https://github.com/HuanHaiLiuXin"><img src="https://img.shields.io/badge/%E4%BD%9C%E8%80%85-%E5%B9%BB%E6%B5%B7%E6%B5%81%E5%BF%83-2E8CE6.svg"></a>

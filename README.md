@@ -12,7 +12,7 @@
 
 ## About
 [**CoolViewPager**](https://github.com/HuanHaiLiuXin/CoolViewPager)是一个自定义ViewPager,具有以下功能特征:
-1. 水平及垂直方向循环滚动
+1. 支持水平及垂直方向循环滚动
 2. 支持自动滚动
 3. 支持自动滚动方向、滚动时间、间隔时间的设置
 4. 支持调用notifyDataSetChanged实时刷新界面
@@ -21,12 +21,28 @@
 
 <table align="center">
     <tr>
-        <td><img src="https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/ScreenRecorder/notifyDatasetChanged%E7%94%9F%E6%95%88-%E5%B0%8F.gif"/></td>
-        <td><img src="https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/ScreenRecorder/%E6%B0%B4%E5%B9%B3%E5%8F%8A%E5%9E%82%E7%9B%B4%E6%96%B9%E5%90%91%E9%A1%B5%E9%9D%A2%E5%88%87%E6%8D%A2%E6%95%88%E6%9E%9C-%E5%B0%8F.gif"/></td>
+        <td>支持水平及垂直方向循环滚动</td>
+        <td>支持自动滚动及滚动方向、滚动时间、间隔时间的设置</td>
     </tr>
     <tr>
         <td><img src="https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/ScreenRecorder/%E6%B0%B4%E5%B9%B3%E5%8F%8A%E5%9E%82%E7%9B%B4%E6%BB%91%E5%8A%A8-%E5%B0%8F.gif"/></td>
         <td><img src="https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/ScreenRecorder/%E8%87%AA%E5%8A%A8%E6%BB%9A%E5%8A%A8%E5%8F%AF%E8%AE%BE%E7%BD%AE%E6%96%B9%E5%90%91%E5%8F%8A%E9%97%B4%E9%9A%94%E6%97%B6%E9%97%B4-%E5%B0%8F.gif"/></td>
+    </tr>
+    <tr>
+        <td>支持调用notifyDataSetChanged实时刷新界面</td>
+        <td>支持边缘效果颜色的设置</td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/ScreenRecorder/notifyDatasetChanged%E7%94%9F%E6%95%88-%E5%B0%8F.gif"/></td>
+        <td><img src="https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/ScreenRecorder/%E8%87%AA%E5%AE%9A%E4%B9%89%E8%BE%B9%E7%BC%98%E6%95%88%E6%9E%9C%E9%A2%9C%E8%89%B2-%E5%B0%8F.gif"/></td>
+    </tr>
+    <tr>
+        <td>为垂直滚动提供了适宜的界面切换效果</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/ScreenRecorder/%E6%B0%B4%E5%B9%B3%E5%8F%8A%E5%9E%82%E7%9B%B4%E6%96%B9%E5%90%91%E9%A1%B5%E9%9D%A2%E5%88%87%E6%8D%A2%E6%95%88%E6%9E%9C-%E5%B0%8F.gif"/></td>
+        <td></td>
     </tr>
 </table>
 

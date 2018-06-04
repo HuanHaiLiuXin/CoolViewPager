@@ -50,6 +50,37 @@
 ## Apk
 [**demo.apk**](https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/demo.apk)
 
+## Usage
+在你的build.gradle中添加依赖
+```
+dependencies {
+    implementation 'com.huanhailiuxin.view:coolviewpager:1.0.1'
+}
+```
+在你的布局文件中引入CoolViewPager
+```
+<com.huanhailiuxin.coolviewpager.CoolViewPager
+    android:id="@+id/vp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cvp_scrollmode="horizontal"
+    app:cvp_infiniteloop="false"
+    app:cvp_edgeeffectcolor="@color/colorAccent"
+    />
+```
+在Java代码中获取CoolViewPager,设置各种属性,为其设置Adapter
+```java
+public class ActivityEdgeEffectColor extends BaseActivity {
+    private CoolViewPager vp;
+    
+    ****
+    CoolViewPager vp = findViewById(R.id.vp);
+    vp.setScrollMode(CoolViewPager.ScrollMode.HORIZONTAL);
+    vp.setAdapter(adapter);
+    ****
+}
+```
+
 License
 =======
 

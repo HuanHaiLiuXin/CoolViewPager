@@ -8,37 +8,37 @@
 <a target="_blank" href="https://android-arsenal.com/api?level=15"><img src="https://img.shields.io/badge/API-15%2B-brightgreen.svg?style=flat"></a>
 </p>
 
-## [README of English](https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/README-EN.md)<br/>
+## [README of Chinese](https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/README.md)<br/>
 
 ## About
-[**CoolViewPager**](https://github.com/HuanHaiLiuXin/CoolViewPager)是一个自定义ViewPager,具有以下功能特征:
-1. 支持水平及垂直方向循环滚动
-2. 支持自动滚动
-3. 支持自动滚动方向、滚动时间、间隔时间的设置
-4. 支持调用notifyDataSetChanged实时刷新界面
-5. 支持边缘效果颜色的设置
-6. 为垂直滚动提供了适宜的界面切换效果
+[**CoolViewPager**](https://github.com/HuanHaiLiuXin/CoolViewPager) is a custom ViewPager,it contains these follow features:
+1. support horizontal scrolling and vertical scrolling
+2. support automatic scrolling
+3. support setting auto-scrolling direction,auto-scrolling duration,auto-scrolling interval time
+4. support executing notifyDataSetChanged to refresh views immediately
+5. support setting the color of EdgeEffect
+6. contains appropriate PageTransformer for vertical scrolling
 
 ## Screen Record
 <table align="center">
     <tr>
-        <td>支持水平及垂直方向循环滚动</td>
-        <td>支持自动滚动及滚动方向、滚动时间、间隔时间的设置</td>
+        <td>horizontal and vertical scrolling</td>
+        <td>direction,duration and interval time for auto-scrolling</td>
     </tr>
     <tr>
         <td><img src="https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/ScreenRecorder/%E6%B0%B4%E5%B9%B3%E5%8F%8A%E5%9E%82%E7%9B%B4%E6%BB%91%E5%8A%A8-%E5%B0%8F.gif"/></td>
         <td><img src="https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/ScreenRecorder/%E8%87%AA%E5%8A%A8%E6%BB%9A%E5%8A%A8%E5%8F%AF%E8%AE%BE%E7%BD%AE%E6%96%B9%E5%90%91%E5%8F%8A%E9%97%B4%E9%9A%94%E6%97%B6%E9%97%B4-%E5%B0%8F.gif"/></td>
     </tr>
     <tr>
-        <td>支持调用notifyDataSetChanged实时刷新界面</td>
-        <td>支持边缘效果颜色的设置</td>
+        <td>executing notifyDataSetChanged to refresh views immediately</td>
+        <td>setting the color of EdgeEffect</td>
     </tr>
     <tr>
         <td><img src="https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/ScreenRecorder/notifyDatasetChanged%E7%94%9F%E6%95%88-%E5%B0%8F.gif"/></td>
         <td><img src="https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/ScreenRecorder/%E8%87%AA%E5%AE%9A%E4%B9%89%E8%BE%B9%E7%BC%98%E6%95%88%E6%9E%9C%E9%A2%9C%E8%89%B2-%E5%B0%8F.gif"/></td>
     </tr>
     <tr>
-        <td>为垂直滚动提供了适宜的界面切换效果</td>
+        <td>contains appropriate PageTransformer for vertical scrolling</td>
         <td></td>
     </tr>
     <tr>
@@ -51,13 +51,13 @@
 [**demo.apk**](https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/demo.apk)
 
 ## Usage
-在你的build.gradle中添加依赖
+1.Add the dependency to your build.gradle
 ```
 dependencies {
     implementation 'com.huanhailiuxin.view:coolviewpager:1.0.0'
 }
 ```
-在你的布局文件中引入CoolViewPager
+2.Include the CoolViewPager widget in your layout
 ```
 <com.huanhailiuxin.coolviewpager.CoolViewPager
     android:id="@+id/vp"
@@ -65,7 +65,7 @@ dependencies {
     android:layout_height="match_parent"
     />
 ```
-在Java代码中获取CoolViewPager,设置各种属性,为其设置Adapter
+3.Gain the CoolViewPager isntance in your Java code,set it's attributes and PagerAdapter
 ```java
 public class ActivityEdgeEffectColor extends BaseActivity {
     private CoolViewPager vp;
@@ -79,18 +79,18 @@ public class ActivityEdgeEffectColor extends BaseActivity {
 ```
 
 ## [Attributes](https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/coolviewpager/src/main/res/values/attrs_coolviewpager.xml)
-我们可以通过xml或Java代码的方式设置CoolViewPager实例的属性.
+We can set the attributes for a CoolViewPager instance via xml or via Java code.
 
 | attribute name | description |
 |:---|:---|
-| cvp_scrollmode | 滚动方向 |
-| cvp_autoscroll | 是否开启自动滚动 |
-| cvp_intervalinmillis | 自动滚动时间间隔 |
-| cvp_autoscrolldirection | 自动滚动方向 |
-| cvp_infiniteloop | 是否循环滚动 |
-| cvp_scrollduration | 自动滚动耗时 |
-| cvp_drawedgeeffect | 是否绘制边缘效果 |
-| cvp_edgeeffectcolor | 绘制的边缘效果颜色 |
+| cvp_scrollmode | horizontal or vertical |
+| cvp_autoscroll | true or false:Set whether to open auto-scrolling |
+| cvp_intervalinmillis | auto-scrolling interval time in miliseconds |
+| cvp_autoscrolldirection | auto-scrolling direction:forward or backward |
+| cvp_infiniteloop | true or false:Set whether to open loop-scrolling |
+| cvp_scrollduration | auto-scrolling consume time in miliseconds |
+| cvp_drawedgeeffect | true or false:Set whether to draw edgeeffect |
+| cvp_edgeeffectcolor | setting the color of EdgeEffect |
 
 #### Via XML
 ```

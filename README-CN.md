@@ -8,18 +8,18 @@
 <a target="_blank" href="https://android-arsenal.com/api?level=15"><img src="https://img.shields.io/badge/API-15%2B-brightgreen.svg?style=flat"></a>
 </p>
 
-## [README of English](https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/README-EN.md)<br/>
+## [README of English](https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/README.md)<br/>
 
-## About
+## 关于
 [**CoolViewPager**](https://github.com/HuanHaiLiuXin/CoolViewPager)是一个自定义ViewPager,具有以下功能特征:
 1. 支持水平及垂直方向循环滚动
 2. 支持自动滚动
 3. 支持自动滚动方向、滚动时间、间隔时间的设置
-4. 支持调用notifyDataSetChanged实时刷新界面
-5. 支持边缘效果颜色的设置
-6. 为垂直滚动提供了适宜的界面切换效果
+4. **支持调用notifyDataSetChanged实时刷新界面**
+5. **支持边缘效果颜色的设置**
+6. **为垂直滚动提供了适宜的界面切换效果**
 
-## Screen Record
+## 录屏
 <table align="center">
     <tr>
         <td>支持水平及垂直方向循环滚动</td>
@@ -50,14 +50,14 @@
 ## Apk
 [**demo.apk**](https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/demo.apk)
 
-## Usage
-在你的build.gradle中添加依赖
+## 使用步骤
+1 在你的build.gradle中添加依赖
 ```
 dependencies {
     implementation 'com.huanhailiuxin.view:coolviewpager:1.0.0'
 }
 ```
-在你的布局文件中引入CoolViewPager
+2 在你的布局文件中引入CoolViewPager
 ```
 <com.huanhailiuxin.coolviewpager.CoolViewPager
     android:id="@+id/vp"
@@ -65,7 +65,7 @@ dependencies {
     android:layout_height="match_parent"
     />
 ```
-在Java代码中获取CoolViewPager,设置各种属性,为其设置Adapter
+3 在你的Java代码中获取CoolViewPager,设置各种属性,为其设置Adapter
 ```java
 public class ActivityEdgeEffectColor extends BaseActivity {
     private CoolViewPager vp;
@@ -78,7 +78,7 @@ public class ActivityEdgeEffectColor extends BaseActivity {
 }
 ```
 
-## [Attributes](https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/coolviewpager/src/main/res/values/attrs_coolviewpager.xml)
+## [CoolViewPager的自定义属性](https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/coolviewpager/src/main/res/values/attrs_coolviewpager.xml)
 我们可以通过xml或Java代码的方式设置CoolViewPager实例的属性.
 
 | attribute name | description |
@@ -92,7 +92,7 @@ public class ActivityEdgeEffectColor extends BaseActivity {
 | cvp_drawedgeeffect | 是否绘制边缘效果 |
 | cvp_edgeeffectcolor | 绘制的边缘效果颜色 |
 
-#### Via XML
+#### 在XML中设置
 ```
 <com.huanhailiuxin.coolviewpager.CoolViewPager
     android:id="@+id/vp"
@@ -108,7 +108,7 @@ public class ActivityEdgeEffectColor extends BaseActivity {
     app:cvp_edgeeffectcolor="@color/colorPrimary"
     />
 ```
-#### Via Java code
+#### 在Java代码中设置
 ```java
 public class ActivityEdgeEffectColor extends BaseActivity {
     private CoolViewPager vp;
@@ -127,7 +127,7 @@ public class ActivityEdgeEffectColor extends BaseActivity {
 
 ```
 
-## Author
+## 作者
 <a target="_blank" href="https://github.com/HuanHaiLiuXin"><img src="https://img.shields.io/badge/%E4%BD%9C%E8%80%85-%E5%B9%BB%E6%B5%B7%E6%B5%81%E5%BF%83-2E8CE6.svg"></a>
 <a target="_blank" href="https://juejin.im/user/58206bf20ce46300589709d0"><img src="https://img.shields.io/badge/%E6%8E%98%E9%87%91-%E5%B9%BB%E6%B5%B7%E6%B5%81%E5%BF%83-006CFF.svg"></a>
 <a target="_blank" href="https://www.jianshu.com/u/5702e6847f31"><img src="https://img.shields.io/badge/%E7%AE%80%E4%B9%A6-%E5%B9%BB%E6%B5%B7%E6%B5%81%E5%BF%83-EE705B.svg"></a>

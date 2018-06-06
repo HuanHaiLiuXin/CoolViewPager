@@ -8,16 +8,16 @@
 <a target="_blank" href="https://android-arsenal.com/api?level=15"><img src="https://img.shields.io/badge/API-15%2B-brightgreen.svg?style=flat"></a>
 </p>
 
-## [README of Chinese](https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/README.md)<br/>
+## [README of Chinese](https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/README-CN.md)<br/>
 
 ## About
 [**CoolViewPager**](https://github.com/HuanHaiLiuXin/CoolViewPager) is a custom ViewPager,it contains these follow features:
 1. support horizontal scrolling and vertical scrolling
 2. support automatic scrolling
 3. support setting auto-scrolling direction,auto-scrolling duration,auto-scrolling interval time
-4. support executing notifyDataSetChanged to refresh views immediately
-5. support setting the color of EdgeEffect
-6. contains appropriate PageTransformer for vertical scrolling
+4. **support executing notifyDataSetChanged to refresh views immediately**
+5. **support setting the color of EdgeEffect**
+6. **contains appropriate PageTransformer for vertical scrolling**
 
 ## Screen Record
 <table align="center">
@@ -51,13 +51,13 @@
 [**demo.apk**](https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/demo.apk)
 
 ## Usage
-1.Add the dependency to your build.gradle
+1 Add the dependency to your build.gradle
 ```
 dependencies {
     implementation 'com.huanhailiuxin.view:coolviewpager:1.0.0'
 }
 ```
-2.Include the CoolViewPager widget in your layout
+2 Include the CoolViewPager widget in your layout
 ```
 <com.huanhailiuxin.coolviewpager.CoolViewPager
     android:id="@+id/vp"
@@ -65,7 +65,7 @@ dependencies {
     android:layout_height="match_parent"
     />
 ```
-3.Gain the CoolViewPager isntance in your Java code,set it's attributes and PagerAdapter
+3 Gain the CoolViewPager isntance in your Java code,set it's attributes and PagerAdapter
 ```java
 public class ActivityEdgeEffectColor extends BaseActivity {
     private CoolViewPager vp;
@@ -84,12 +84,12 @@ We can set the attributes for a CoolViewPager instance via xml or via Java code.
 | attribute name | description |
 |:---|:---|
 | cvp_scrollmode | horizontal or vertical |
-| cvp_autoscroll | true or false:Set whether to open auto-scrolling |
+| cvp_autoscroll | true or false: Set whether to open auto-scrolling |
 | cvp_intervalinmillis | auto-scrolling interval time in miliseconds |
-| cvp_autoscrolldirection | auto-scrolling direction:forward or backward |
-| cvp_infiniteloop | true or false:Set whether to open loop-scrolling |
+| cvp_autoscrolldirection | auto-scrolling direction: forward or backward |
+| cvp_infiniteloop | true or false: Set whether to open loop-scrolling |
 | cvp_scrollduration | auto-scrolling consume time in miliseconds |
-| cvp_drawedgeeffect | true or false:Set whether to draw edgeeffect |
+| cvp_drawedgeeffect | true or false: Set whether to draw edgeeffect |
 | cvp_edgeeffectcolor | setting the color of EdgeEffect |
 
 #### Via XML

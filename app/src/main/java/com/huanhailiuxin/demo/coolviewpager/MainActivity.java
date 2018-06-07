@@ -37,4 +37,8 @@ public class MainActivity extends AppCompatActivity {
     public void changePageTransformer(View view) {
         startActivity(new Intent(MainActivity.this,ActivityPageTransformer.class));
     }
+
+    public void compareWithSupport(View view) {
+        startActivity(new Intent(MainActivity.this,SupportViewPagerActivity.class));
+    }
 }

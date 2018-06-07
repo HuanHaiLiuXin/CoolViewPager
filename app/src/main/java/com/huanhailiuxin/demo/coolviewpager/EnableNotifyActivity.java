@@ -1,9 +1,12 @@
 package com.huanhailiuxin.demo.coolviewpager;
 
+import android.graphics.Bitmap;
+import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.ImageView;
 
 import com.huanhailiuxin.coolviewpager.CoolViewPager;
 
@@ -40,10 +43,11 @@ public class EnableNotifyActivity extends BaseActivity {
     }
 
     public void buttonClick(View view) {
-        items.set(0, createImageView(R.mipmap.i1));
-        items.set(1, createImageView(R.mipmap.i2));
-        items.set(2, createImageView(R.mipmap.i5));
-        items.set(3, createImageView(R.mipmap.i6));
+        items.clear();
+        items.add(createImageView(R.mipmap.i1));
+        items.add(createImageView(R.mipmap.i2));
+        items.add(createImageView(R.mipmap.i5));
+        items.add(createImageView(R.mipmap.i6));
         vp.notifyDataSetChanged();
     }
 }

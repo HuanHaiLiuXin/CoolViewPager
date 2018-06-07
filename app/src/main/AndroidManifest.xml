@@ -22,6 +22,7 @@
         <activity android:name=".EnableNotifyActivity" />
         <activity android:name=".ActivityAutoScroll" />
         <activity android:name=".ActivityPageTransformer"></activity>
+        <activity android:name=".SupportViewPagerActivity"></activity>
         <activity
             android:name=".CustomErrorActivity"
             android:label="@string/error_title"

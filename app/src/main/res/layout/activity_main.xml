@@ -10,12 +10,6 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="notifyDataSetChanged有效"
-        android:onClick="enableNotifyDataSetChanged"
-        />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:text="水平及垂直滑动"
         android:onClick="changeOrientation"
         />
@@ -36,5 +30,17 @@
         android:layout_height="wrap_content"
         android:text="水平垂直方向页面切换效果"
         android:onClick="changePageTransformer"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="notifyDataSetChanged有效"
+        android:onClick="enableNotifyDataSetChanged"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="对比support中ViewPager看性能"
+        android:onClick="compareWithSupport"
         />
 </LinearLayout>

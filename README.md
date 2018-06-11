@@ -3,6 +3,7 @@
 </p>
 <p align="center">
 <a target="_blank" href="https://jitpack.io/#HuanHaiLiuXin/CoolViewPager"><img src="https://jitpack.io/v/HuanHaiLiuXin/CoolViewPager.svg"></a>
+<a target="_blank" href="https://travis-ci.org/HuanHaiLiuXin/CoolViewPager"><img src="https://travis-ci.org/HuanHaiLiuXin/CoolViewPager.svg?branch=master"></a>
 <a target="_blank" href="https://www.apache.org/licenses/LICENSE-2.0"><img src="https://img.shields.io/badge/License-Apache%202-3D7DB4.svg"></a>
 <a target="_blank" href="https://www.android.com"><img src="https://img.shields.io/badge/platform-Android-4DC71F.svg"></a>
 <a target="_blank" href="https://android-arsenal.com/api?level=15"><img src="https://img.shields.io/badge/API-15%2B-brightgreen.svg?style=flat"></a>

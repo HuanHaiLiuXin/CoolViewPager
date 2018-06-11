@@ -1,4 +1,7 @@
 apply plugin: 'com.android.library'
+//jitpack
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.huanhailiuxin'
 
 android {
     compileSdkVersion 27

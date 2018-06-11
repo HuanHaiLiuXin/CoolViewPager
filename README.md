@@ -1,4 +1,4 @@
-<p align="center">
+<p align="center"> 
     <img src="https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/ScreenRecorder/Logo_CoolViewPager.png"/>
 </p>
 <p align="center">

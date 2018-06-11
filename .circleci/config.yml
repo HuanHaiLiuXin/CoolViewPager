@@ -7,7 +7,7 @@ machine:
   java:
       version: oraclejdk8
   environment:
-      ANDROID_HOME: C:\Users\Administrator\AppData\Local\Android\sdk
+      ANDROID_HOME: C\:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk
 
 version: 2
 jobs:

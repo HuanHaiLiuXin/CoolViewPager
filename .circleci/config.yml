@@ -2,6 +2,13 @@
 #
 # Check https://circleci.com/docs/2.0/language-java/ for more details
 #
+
+machine:
+  java:
+      version: oraclejdk8
+  environment:
+      ANDROID_HOME: C:\Users\Administrator\AppData\Local\Android\sdk
+
 version: 2
 jobs:
   build:

@@ -61,7 +61,7 @@ dependencies {
 }
 ```
 2 Include the CoolViewPager widget in your layout
-```
+```xml
 <com.huanhailiuxin.coolviewpager.CoolViewPager
     android:id="@+id/vp"
     android:layout_width="match_parent"

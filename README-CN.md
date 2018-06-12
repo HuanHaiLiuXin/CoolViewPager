@@ -61,7 +61,7 @@ dependencies {
 }
 ```
 2 在你的布局文件中引入CoolViewPager
-```
+```xml
 <com.huanhailiuxin.coolviewpager.CoolViewPager
     android:id="@+id/vp"
     android:layout_width="match_parent"

@@ -11,7 +11,7 @@
 <a target="_blank" href="https://android-arsenal.com/api?level=15"><img src="https://img.shields.io/badge/API-15%2B-brightgreen.svg?style=flat"></a>
 </p>
 
-## [README of Chinese](https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/README-CN.md)<br/>
+## [README 中文版](https://github.com/HuanHaiLiuXin/CoolViewPager/blob/master/README-CN.md)<br/>
 
 ## About
 [**CoolViewPager**](https://github.com/HuanHaiLiuXin/CoolViewPager) is a custom ViewPager,it contains these follow features:

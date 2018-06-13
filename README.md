@@ -55,6 +55,24 @@
 
 ## Usage
 1 Add the dependency to your build.gradle
+###### JitPack:
+- Add it in your root build.gradle at the end of repositories:
+```
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+- Add the dependency in your module build.gradle
+```
+dependencies {
+        implementation 'com.github.HuanHaiLiuXin:CoolViewPager:v1.0.0'
+}
+```
+###### Bintray:
+Add the dependency in your module build.gradle
 ```
 dependencies {
     implementation 'com.huanhailiuxin.view:coolviewpager:1.0.0'

@@ -55,6 +55,24 @@
 
 ## 使用步骤
 1 在你的build.gradle中添加依赖
+###### JitPack:
+- 工程根目录下 build.gradle 中添加 
+```
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+- 使用CoolViewPager的模块下 build.gradle 中添加
+```
+dependencies {
+        implementation 'com.github.HuanHaiLiuXin:CoolViewPager:v1.0.0'
+}
+```
+###### Bintray:
+使用CoolViewPager的模块下 build.gradle 中添加
 ```
 dependencies {
     implementation 'com.huanhailiuxin.view:coolviewpager:1.0.0'
